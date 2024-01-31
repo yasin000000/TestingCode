@@ -1,0 +1,28 @@
+package seleniumfirst;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class DropdownEg {
+
+	public static void main(String[] args) throws InterruptedException {
+System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Music\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		
+		WebDriver driver=new ChromeDriver();
+		
+		driver.get("https://www.pravaraengg.org.in/");
+		
+		Thread.sleep(1000);
+		driver.manage().window().maximize();
+		Thread.sleep(1000);
+		
+		driver.findElement(By.xpath("//li[@class='dropdown']")).click();
+		
+		
+		
+		
+
+	}
+
+}

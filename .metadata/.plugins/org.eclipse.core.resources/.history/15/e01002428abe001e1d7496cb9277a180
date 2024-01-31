@@ -1,0 +1,10 @@
+package testingPro;
+
+import org.openqa.selenium.WebDriver;
+
+public class TestNgSeleniumPro {
+
+	WebDriver driver;
+	
+	
+}

@@ -1,0 +1,14 @@
+package seleniumfirst;
+
+public class LaunchBrowser {
+
+	public static void main(String[] args) {
+	
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Music\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
+		
+		webDriver driver=new ChromeDriver();
+		
+
+	}
+
+}
